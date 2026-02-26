@@ -24,7 +24,7 @@ All placeholders are in `index.html`. Search for each one and replace.
 |---|---|---|
 | `[Your Phone Number]` | Tom's phone number | Contact section + Footer |
 | `[your@email.com]` | Tom's email address | Contact section + Footer |
-| `[Your City, State]` | `Gualala, CA` | Footer |
+| ~~`[Your City, State]`~~ | ✅ `Gualala, CA` | Footer |
 
 ---
 
@@ -58,13 +58,9 @@ to find each one.
 
 ---
 
-## 5. Footer Copyright Year
+## 5. Footer Copyright Year ✅
 
-In `index.html` (~line 585), update:
-```
-© 2024 Smooth Sports Gear
-```
-to the current year.
+Updated to © 2026.
 
 ---
 

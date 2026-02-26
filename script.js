@@ -31,6 +31,22 @@ function applyPhotoConfig() {
     });
   }
 
+  // Product photos
+  if (SITE_PHOTOS.products) {
+    Object.entries(SITE_PHOTOS.products).forEach(([slot, file]) => {
+      if (!file) return;
+      const card = document.querySelector(`[data-product="${slot}"]`);
+      if (!card) return;
+      const placeholder = card.querySelector('.product-img-placeholder');
+      if (placeholder) {
+        const img = document.createElement('img');
+        img.src = 'images/products/' + file;
+        img.alt = placeholder.querySelector('.ph-label') ? placeholder.querySelector('.ph-label').textContent : slot;
+        placeholder.replaceWith(img);
+      }
+    });
+  }
+
   // Gallery
   if (SITE_PHOTOS.gallery) {
     document.querySelectorAll('.gallery-item').forEach((item, i) => {

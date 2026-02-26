@@ -52,4 +52,21 @@ const SITE_PHOTOS = {
     { file: 'whitecaps_construction.jpg',        caption: 'Whitecaps Construction'         },
   ],
 
+
+  /* ----------------------------------------------------------
+     PRODUCT PHOTOS
+     Drop photos into images/products/ and replace null with
+     the filename. The colored placeholder will be replaced.
+  ---------------------------------------------------------- */
+  products: {
+    jerseys:  null,   // e.g. 'jerseys.jpg'
+    tshirts:  null,   // e.g. 'tshirts.jpg'
+    hoodies:  null,   // e.g. 'hoodies.jpg'
+    hats:     null,   // e.g. 'hats.jpg'
+    stickers: null,   // e.g. 'stickers.jpg'
+    mugs:     null,   // e.g. 'mugs.jpg'
+    posters:  null,   // e.g. 'posters.jpg'
+    signs:    null,   // e.g. 'signs.jpg'
+  },
+
 };
