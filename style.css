@@ -339,13 +339,15 @@ p { line-height: 1.75; }
 ============================================================ */
 .hero {
   min-height: 100vh;
-  background: linear-gradient(
-    170deg,
-    #060f1c 0%,
-    #091828 35%,
-    #0d2545 65%,
-    #122e54 100%
-  );
+  background:
+    linear-gradient(
+      170deg,
+      rgba(4,12,22,0.90) 0%,
+      rgba(8,20,36,0.84) 40%,
+      rgba(12,30,54,0.72) 70%,
+      rgba(16,40,68,0.62) 100%
+    ),
+    url('images/gallery/gemini point arena.png') center/cover no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -369,7 +371,7 @@ p { line-height: 1.75; }
   pointer-events: none;
 }
 
-/* Pacific sunset glow — bottom-left, like sundown over the coast */
+/* Subtle amber warmth — very gentle over the photo */
 .hero::after {
   content: '';
   position: absolute;
@@ -377,7 +379,7 @@ p { line-height: 1.75; }
   left: -120px;
   width: 800px;
   height: 800px;
-  background: radial-gradient(circle, rgba(201,138,43,0.2) 0%, rgba(201,138,43,0.06) 40%, transparent 65%);
+  background: radial-gradient(circle, rgba(201,138,43,0.08) 0%, transparent 60%);
   border-radius: 50%;
   pointer-events: none;
 }
@@ -697,7 +699,7 @@ p { line-height: 1.75; }
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5rem;
-  align-items: center;
+  align-items: start;
 }
 
 /* Visual column */
@@ -766,6 +768,27 @@ p { line-height: 1.75; }
   line-height: 1;
 }
 
+/* Mini photo grid below Tom's photo */
+.story-mini-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.story-mini-item {
+  border-radius: var(--radius);
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+
+.story-mini-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 /* Accent photo */
 .story-photo-accent {
   position: absolute;
@@ -807,7 +830,7 @@ p { line-height: 1.75; }
 
 .story-text h2 {
   color: var(--navy);
-  margin: 0.5rem 0 1.5rem;
+  margin: 0 0 1.5rem;
 }
 
 .story-lead {
@@ -825,11 +848,20 @@ p { line-height: 1.75; }
 
 .story-quote {
   border-left: 3px solid var(--orange);
-  margin: 1.75rem 0;
+  margin: 1.75rem 0 2.5rem;
   padding: 1rem 1.25rem;
   background: rgba(201,138,43,0.05);
   border-radius: 0 var(--radius) var(--radius) 0;
 }
+.quote-location {
+  font-size: 0.8rem;
+  font-style: normal;
+  color: var(--orange);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  margin-top: 0.6rem;
+}
+
 .story-quote blockquote,
 blockquote.story-quote {
   font-size: 1rem;
