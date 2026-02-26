@@ -6,11 +6,12 @@
 
 | | |
 |---|---|
-| **Business Name** | Smooth Sports Gear |
+| **Website Brand Name** | Smooth Sports Gear |
+| **Operating Name** | West Coast Athletics (Tom's West Coast Athletics) |
 | **Tagline** | TBD — see options below |
 | **Location** | Gualala, CA (Mendocino Coast) |
-| **Founded** | ~1994 |
-| **Owner** | [Owner Name] |
+| **Founded** | 1986 |
+| **Owner** | Tom Iliffe |
 | **Business Type** | Custom sports uniforms & gear — local, made-to-order |
 
 ### Tagline Options
@@ -26,18 +27,30 @@ Pick one that feels right, or use as inspiration:
 
 ## 2. Brand Story
 
-The owner has coached the Point Arena High School football team for decades in Gualala, CA — a tight-knit community on the Mendocino Coast. What started as making uniforms for his own team grew organically into outfitting teams across the community: little league, rec leagues, high schools, traveling teams, and sports parents.
+Tom Iliffe founded West Coast Athletics in 1986 in Gualala, CA. For nearly 40 years it has been the primary source of uniforms, warm-ups, and spirit wear for Point Arena High School (the Pirates), Arena Elementary, and local youth programs across football, volleyball, basketball, soccer, and baseball.
 
-This is not a corporate printing operation. It is one person who has shown up for the community for 30+ years — first as a coach, then as the person who makes sure every athlete looks the part.
+Tom also coached — varsity football assistant at PAHS starting in 2002, JV head coach from 2010, and varsity head coach through the 2015 season. He coached volleyball, little league, and youth basketball as well.
 
-Now the business is expanding to serve neighboring communities within a couple hours' drive.
+His philosophy: **every kid deserves a real uniform, regardless of what their family can afford.** He regularly donated gear, cleats, socks, and equipment to Arena Elementary so no child ever missed out due to cost. He ran clinics to bridge elementary and high school sports. His work frequently blurred the line between business and community service.
+
+He has emphysema and stepped back from coaching. The website is being built as a surprise gift to help grow the business so Tom can keep doing what he loves.
 
 ### Core narrative themes:
-- **Decades of community service** — not a startup, not a franchise
-- **Personal attention** — the owner handles every order
-- **Sports coaching roots** — understands athletes and teams from the inside
-- **Small-town pride** — Mendocino Coast identity is an asset, not a limitation
-- **Expansion with heart** — growing without losing the personal touch
+- **Nearly 40 years** — not a startup, not a franchise
+- **No kid left on the sideline** — donated gear, at-cost pricing, genuine care
+- **Coach's perspective** — built by someone who understood what teams actually need
+- **Community institution** — the whole community has relied on Tom for four decades
+- **Small-town Mendocino Coast identity** — Gualala, Point Arena, the Pirates
+- **Expansion with heart** — same care, broader reach
+
+### Key programs served:
+- Point Arena High School (football, volleyball, basketball game uniforms, warm-ups, "Pirate Pride" spirit wear)
+- Arena Elementary (basketball, soccer — uniforms at cost/donated; equipment donations; sports clinics)
+- Point Arena Little League
+- Youth basketball (middle school level, community clinics)
+
+### The "no kid benched" detail:
+Tom donated cleats, socks, balls, and uniforms to ensure no child sat out due to financial barriers. This is the single most powerful brand differentiator — use it prominently in copy and story.
 
 ---
 
