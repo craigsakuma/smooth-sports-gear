@@ -338,6 +338,7 @@ p { line-height: 1.75; }
    HERO
 ============================================================ */
 .hero {
+  --hero-bg-url: url('images/gallery/gemini point arena.png');
   min-height: 100vh;
   background:
     linear-gradient(
@@ -347,7 +348,7 @@ p { line-height: 1.75; }
       rgba(12,30,54,0.72) 70%,
       rgba(16,40,68,0.62) 100%
     ),
-    url('images/gallery/gemini point arena.png') center/cover no-repeat;
+    var(--hero-bg-url) center/cover no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;

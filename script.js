@@ -2,6 +2,51 @@
    SMOOTH SPORTS GEAR — script.js
 ============================================================ */
 
+/* ============================================================
+   PHOTO CONFIG — reads photos.js and applies to the DOM
+============================================================ */
+function applyPhotoConfig() {
+  if (typeof SITE_PHOTOS === 'undefined') return;
+
+  // Hero background
+  if (SITE_PHOTOS.hero_background) {
+    document.documentElement.style.setProperty(
+      '--hero-bg-url',
+      `url('images/gallery/${SITE_PHOTOS.hero_background}')`
+    );
+  }
+
+  // Story portrait
+  if (SITE_PHOTOS.story_portrait) {
+    const portrait = document.querySelector('.story-photo-main img');
+    if (portrait) portrait.src = 'images/gallery/' + SITE_PHOTOS.story_portrait;
+  }
+
+  // Story grid
+  if (SITE_PHOTOS.story_grid) {
+    document.querySelectorAll('.story-mini-item img').forEach((img, i) => {
+      if (SITE_PHOTOS.story_grid[i]) {
+        img.src = 'images/gallery/' + SITE_PHOTOS.story_grid[i];
+      }
+    });
+  }
+
+  // Gallery
+  if (SITE_PHOTOS.gallery) {
+    document.querySelectorAll('.gallery-item').forEach((item, i) => {
+      const photo = SITE_PHOTOS.gallery[i];
+      if (!photo) return;
+      const img     = item.querySelector('img');
+      const caption = item.querySelector('.gallery-overlay span');
+      if (img)     { img.src = 'images/gallery/' + photo.file; img.alt = photo.caption; }
+      if (caption) caption.textContent = photo.caption;
+    });
+  }
+}
+
+applyPhotoConfig();
+
+
 document.addEventListener('DOMContentLoaded', () => {
 
   /* ----------------------------------------------------------
