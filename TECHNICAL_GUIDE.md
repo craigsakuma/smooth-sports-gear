@@ -45,18 +45,19 @@ Currently deployed manually via the Vercel CLI:
 vercel --prod
 ```
 
-Vercel is **not** connected to GitHub for automatic deploys. Every deployment requires running the CLI command above from the project directory.
+### ⚠️ Auto-deploy not yet active
 
-### Setting up auto-deploy (recommended)
+The GitHub repo is not connected to Vercel's GitHub App. Auto-deploys require a one-time OAuth setup through the browser — it cannot be completed via CLI.
 
-To enable automatic deploys on every `git push`:
+**To enable auto-deploy (one-time setup):**
 
 1. Log in to [vercel.com](https://vercel.com) with Craig's account
-2. Go to the project → **Settings** → **Git**
-3. Connect the GitHub repo (`craigsakuma/smooth-sports-gear`)
-4. Set the production branch to `main`
+2. Open the **smooth-sports-gear** project → **Settings** → **Git**
+3. Under "Connected Git Repository" click **Connect**
+4. Choose **GitHub** and authorize access to `craigsakuma/smooth-sports-gear`
+5. Set production branch to `main` → Save
 
-After this, pushing to `main` will automatically trigger a new deployment — no CLI needed.
+After this, every `git push origin main` triggers a production deploy automatically. The `vercel --prod` CLI command is no longer needed.
 
 ### Vercel config
 
