@@ -6,8 +6,9 @@
 
 | | |
 |---|---|
-| **Website Brand Name** | Smooth Sports Gear |
-| **Operating Name** | West Coast Athletics (Tom's West Coast Athletics) |
+| **Brand Name** | Smooth Sports Gear |
+| **Origin Name** | West Coast Athletics (founded 1986 — referenced in story as history) |
+| **Note** | "West Coast Athletics" is used in the story as the founding name only. The current and going-forward brand is Smooth Sports Gear. A separate business already operates under "West Coast Athletics" so the name is intentionally distinct. |
 | **Tagline** | TBD — see options below |
 | **Location** | Gualala, CA (Mendocino Coast) |
 | **Founded** | 1986 |
