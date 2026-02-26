@@ -339,7 +339,13 @@ p { line-height: 1.75; }
 ============================================================ */
 .hero {
   min-height: 100vh;
-  background: var(--navy-dark);
+  background: linear-gradient(
+    170deg,
+    #060f1c 0%,
+    #091828 35%,
+    #0d2545 65%,
+    #122e54 100%
+  );
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -348,7 +354,7 @@ p { line-height: 1.75; }
   padding-top: 5rem;
 }
 
-/* Diagonal stripe pattern */
+/* Subtle diagonal texture — like light on water */
 .hero::before {
   content: '';
   position: absolute;
@@ -357,21 +363,44 @@ p { line-height: 1.75; }
     -55deg,
     transparent,
     transparent 60px,
-    rgba(255,255,255,0.018) 60px,
-    rgba(255,255,255,0.018) 61px
+    rgba(255,255,255,0.015) 60px,
+    rgba(255,255,255,0.015) 61px
   );
   pointer-events: none;
 }
 
-/* Orange glow in top-right */
+/* Pacific sunset glow — bottom-left, like sundown over the coast */
 .hero::after {
   content: '';
   position: absolute;
-  top: -150px;
-  right: -150px;
-  width: 700px;
-  height: 700px;
-  background: radial-gradient(circle, rgba(201,138,43,0.18) 0%, transparent 65%);
+  bottom: -120px;
+  left: -120px;
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(circle, rgba(201,138,43,0.2) 0%, rgba(201,138,43,0.06) 40%, transparent 65%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* Coastal horizon line at bottom of hero */
+.hero-horizon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent 0%, rgba(201,138,43,0.4) 30%, rgba(30,90,140,0.5) 60%, transparent 100%);
+  pointer-events: none;
+}
+
+/* Ocean-blue glow on the right — deep water */
+.hero-ocean-glow {
+  position: absolute;
+  top: 10%;
+  right: -200px;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(14,60,110,0.5) 0%, transparent 70%);
   border-radius: 50%;
   pointer-events: none;
 }
