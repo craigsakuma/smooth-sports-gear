@@ -52,6 +52,24 @@ He has emphysema and stepped back from coaching. The website is being built as a
 ### The "no kid benched" detail:
 Tom donated cleats, socks, balls, and uniforms to ensure no child sat out due to financial barriers. This is the single most powerful brand differentiator — use it prominently in copy and story.
 
+### Family legacy:
+- **Dan Iliffe** — Tom's son, eventually became Varsity Head Football Coach at Point Arena
+- For many seasons Tom and Dan were a **father-son coaching duo** — Tom as assistant/advisor, Dan as head coach
+- Tom was famous for his **halftime inspirational speeches** — a local institution
+- 2016: Dan fully took over the varsity program — Tom passed the torch to his son
+- Dan also coached basketball and assisted with other school programs
+- The Iliffe name is synonymous with PAHS athletics
+
+### Recognition:
+- **Point Arena HS Athletic Recognition**: honored multiple times for "Lifetime of Service" — plaques, homecoming ceremonies
+- **Independent Coast Observer**: frequently highlighted as a pillar of the South Coast community; informal "Citizen of the Year"-style mentions for Little League and Arena Elementary work
+- **West Coast Athletics shop**: walls lined with decades of team photos, championship banners, and memorabilia — a walk-in hall of fame
+- Tom helped **standardize the Point Arena Pirate logo** on uniforms
+- A generation of athletes he coached now coach their own children
+
+### Key copy note — the 2016 transition:
+Tom did not simply step down or get replaced. He **handed the program to his son**. This is a legacy story, not a retirement story. Frame it that way.
+
 ---
 
 ## 3. Target Audience
